@@ -1,0 +1,20 @@
+{
+    "project_description": "Obtiene las dimensiones y características de los tumores, los analiza y da una diagnósticosis si el tumor es benigno o maligno.",
+    "developed_by": "Desarrollado por",
+    "actual_situation": "Introducción",
+    "introduction1": "El cáncer de mama es el tipo de cáncer más común en las mujeres de todo el mundo y contribuye al 25% de todos los casos. Es un tipo de cáncer que se desarrolla en la mama; puede comenzar en uno o ambos senos. El cáncer comienza cuando las células comienzan a crecer sin control. Ocurre casi exclusivamente en mujeres, pero los hombres también pueden padecer cáncer de mama. Es importante comprender que la mayoría de los bultos en los senos son benignos y no cancerosos (malignos). Los tumores de mama no cancerosos son crecimientos anormales, pero no se diseminan fuera de la mama. No ponen en peligro la vida, pero algunos tipos de bultos benignos en los senos pueden aumentar el riesgo de que una mujer contraiga cáncer de seno. Cualquier bulto o cambio en el seno debe ser examinado por un profesional de la salud para determinar si es benigno o maligno (cáncer) y si podría afectar su riesgo futuro de cáncer.",
+    "title": "Diagnóstico de cáncer de mama mediante aprendizaje automático",
+    "input_instructions": "Ingresa los datos de la celda que estás analizando. Ten en cuenta que los valores están en mm.",
+    "tumor_is": "El tumor es:",
+    "fig":"Fig 1. Cáncer de mama",
+    "area_mean": "Promedio del área",
+    "select_model":"Seleccione el modelo",
+    "concave_pm": "Promedio de puntos concavos",
+    "concavity_mean": "Promedio de concavidad",
+    "compactness_mean": "Promedio de compacidad",
+    "classify" : "Clasificar",
+    "Malign": "Maligno",
+    "Benign": "Benigno"
+
+
+}

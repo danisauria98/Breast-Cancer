@@ -1,0 +1,21 @@
+{
+    "project_description": "Gets tumors' dimensions and characteristics, analyzes them, and gives a diganosis if the tumor is benign or malign.",
+    "developed_by": "Developed by",
+    "actual_situation": "Introduction",
+    "introduction1": "Breast cancer is the most common type of cancer in women around the world, contributing to 25% of all cases. It is a type of cancer that develops in the breast; it can start in one or both breasts. Cancer starts when cells begin to grow out of control. It occurs almost entirely in women, but men can get breast cancer, too.  It’s important to understand that most breast lumps are benign and not cancer (malignant). Non-cancer breast tumors are abnormal growths,  but they do not spread outside of the breast. They are not life threatening, but some types of benign breast lumps can increase a woman's risk of getting breast cancer. Any breast lump or change needs to be checked by a health care professional to find out if it is benign or malignant (cancer) and if it might affect your future cancer risk.",
+    "title": "Breast Cancer Diagnosis by Machine Learning",
+    "input_instructions": "Input the data of the cell you are analyzing.Take in consideration that the values are in mm.",
+    "tumor_is": "The tumor is:",
+    "fig":"Fig 1. Breast Cancer",
+    "area_mean": "Area mean",
+    "select_model":"Select the model",
+    "concave_pm": "Concave points mean",
+    "concavity_mean": "Concavity mean",
+    "compactness_mean": "Compactness mean",
+    "classify" : "Classify",
+    "Malign": "Malign",
+    "Benign": "Benign"
+
+
+
+}
