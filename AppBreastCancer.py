@@ -10,7 +10,7 @@ st.sidebar.write("""# *Breast Cancer Diagnosis by Machine Learning* """)
 
 language = st.sidebar.selectbox('Select language', ('EN', 'ES'))
 
-with open('/languages/%s.json' % language, 'r', encoding="utf-8") as translation_file:    
+with open('./languages/%s.json' % language, 'r', encoding="utf-8") as translation_file:    
     translation = json.load(translation_file)
 
 st.sidebar.write(translation['project_description'])
