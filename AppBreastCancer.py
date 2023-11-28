@@ -37,11 +37,11 @@ with col2:
     )
 
 #Load the pipeline and the Logistic Regression Model
-pipeline = joblib.load('/pipeline_transformer.sav')
-LR_model = joblib.load('/LR_model.sav')
-SVM_model = joblib.load('/SVM_model.sav')
-DT_model = joblib.load('/DT_model.sav')
-VC_model = joblib.load('/VC_model.sav')
+pipeline = joblib.load('pipeline_transformer.sav')
+LR_model = joblib.load('LR_model.sav')
+SVM_model = joblib.load('SVM_model.sav')
+DT_model = joblib.load('DT_model.sav')
+VC_model = joblib.load('VC_model.sav')
 
 st.write('---')
 
