@@ -1,12 +1,9 @@
 #Import libraries needed
-from ast import Div
-import base64
+
 import json
-from turtle import width
 import streamlit as st
 import joblib
-import numpy as np
-from PIL import Image
+
 
 
 # Sidebar
