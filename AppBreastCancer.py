@@ -1,5 +1,4 @@
 #Import libraries needed
-
 import json
 import streamlit as st
 import joblib
@@ -11,7 +10,7 @@ st.sidebar.write("""# *Breast Cancer Diagnosis by Machine Learning* """)
 
 language = st.sidebar.selectbox('Select language', ('EN', 'ES'))
 
-with open('/Users/danirubio/desktop/languages/%s.json' % language, 'r', encoding="utf-8") as translation_file:    
+with open('/languages/%s.json' % language, 'r', encoding="utf-8") as translation_file:    
     translation = json.load(translation_file)
 
 st.sidebar.write(translation['project_description'])
@@ -38,11 +37,11 @@ with col2:
     )
 
 #Load the pipeline and the Logistic Regression Model
-pipeline = joblib.load('/Users/danirubio/desktop/pipeline_transformer.sav')
-LR_model = joblib.load('/Users/danirubio/desktop/LR_model.sav')
-SVM_model = joblib.load('/Users/danirubio/desktop/SVM_model.sav')
-DT_model = joblib.load('/Users/danirubio/desktop/DT_model.sav')
-VC_model = joblib.load('/Users/danirubio/desktop/VC_model.sav')
+pipeline = joblib.load('/pipeline_transformer.sav')
+LR_model = joblib.load('/LR_model.sav')
+SVM_model = joblib.load('/SVM_model.sav')
+DT_model = joblib.load('/DT_model.sav')
+VC_model = joblib.load('/VC_model.sav')
 
 st.write('---')
 
