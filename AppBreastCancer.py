@@ -18,7 +18,7 @@ st.sidebar.write(translation['project_description'])
 # Sidebar footer
 st.sidebar.write("""
 	%s **Daniela Rubio** \n
-	*© 2023 [Autonomous University of Chihuahua](https://uach.mx)*
+	*© 2023 [Universidad Autónoma de Chihuahua](https://uach.mx)*
 	""" % translation['developed_by'])
 
 
